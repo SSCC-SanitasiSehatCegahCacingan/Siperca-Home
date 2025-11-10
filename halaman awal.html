@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website dengan Hero Image</title>
+    <style>
+        /* CSS DARI KODE ASLI */
+        * {
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+	    background-color: ;
+        }
+
+        /* --- GAMBAR UTAMA FULL-SCREEN --- */
+        .hero-image {
+            /* Ganti URL gambar di bawah dengan gambar Anda sendiri */
+            background-image: url('SIPERCA.png'); 
+            background-size: cover; 
+            background-position: center;
+            height: 100vh; 
+            width: 100%;
+            position: relative; 
+        }
+        
+        /* --- NAVIGASI ORANYE (LOGO DI KIRI, LINK DI KANAN) --- */
+        .top-nav {
+            display: flex; 
+            width: 100%;
+            position: absolute; 
+            top: 0px; 
+            z-index: 10; 
+            font-size: 18px;
+            
+            /* Latar belakang oranye transparan penuh */
+            background-color: rgba(239, 155, 15, 0.7); 
+            
+            /* Membagi konten: Logo di kiri, Link di kanan */
+            justify-content: space-between; 
+            align-items: center; /* **PENTING: Meratakan semua item secara vertikal** */
+            padding: 10px 30px; 
+        }
+        
+        /* Grup Tautan */
+        .nav-links {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: #4e3316; 
+            text-decoration: none;
+            font-weight: bold;
+            margin-left: 30px; 
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: white; 
+        }
+        
+        /* --- LOGO (SEKARANG BERADA DI POJOK KIRI .top-nav) --- */
+        .logo img {
+            width: 100px; 
+            display: block;
+        }
+
+        /* Konten di bawah hero-image */
+        .content {
+            padding: 50px;
+        }
+
+.footer {
+  position: bottom;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(239, 155, 15, 0.7);
+  text-align: center;
+  color: white;
+
+
+}
+    </style>
+</head>
+<body>
+
+<header class="hero-image">
+    <nav class="top-nav">
+        
+        <div class="logo">
+            <img src="logo siperca.png" alt="Logo Siperca">
+        </div>
+        
+        <div class="nav-links">
+            <a href="file:///C:/Users/talit/Documents/halaman%20awal.html" target="_blank" title="Menuju ke halaman Home">Home</a> 
+            <a href="file:///C:/Users/talit/Documents/index.html" target="_blank" title="Menuju ke halaman Pengingat">Pengingat</a> 
+            <a href="file:///C:/Users/talit/Documents/data%20pasien.html" target="_blank" title="Menuju ke halaman Data Pasien">Data Pasien</a>
+        </div>
+
+    </nav>
+</header>
+
+<main class="content">
+    <p align="center" style="font-size:40px"><b>Apa Itu Siperca?</b></p>
+    <p style="font-size:20px; margin-top:40px"><B>Siperca</b> adalah sebuah website yang dirancang untuk mempermudah membuat pengingat jadwal POPM (Pemberian Obat Pencegahan Massal) Cacingan, dan mendata kondisi dasar tubuh seperti tinggi badan, berat badan, dan kondisi lainnya.</p>
+
+<p align="center" style="font-size:40px; margin-top: 60px"><b>Apa Itu Kecacingan?</b></p>
+<p style="font-size:20px; margin-top:40px;"  align="justify">Kecacingan adalah kondisi di mana tubuh, khususnya usus, terinfeksi oleh cacing parasit yang masuk melalui makanan, air, atau tanah yang terkontaminasi telur dan larva. Cacing ini bertindak sebagai "pencuri gizi" yang menyerap sari-sari makanan penting seperti protein dan zat besi yang seharusnya diserap oleh tubuh inang. Dampak dari hilangnya nutrisi ini sangat besar bagi ketahanan pangan dan kualitas sumber daya manusia (SDM). Pada anak, kecacingan kronis dapat menyebabkan anemia, gizi buruk, dan stunting (gagal tumbuh), membuat makanan bergizi yang mereka konsumsi menjadi tidak efektif. Sementara pada orang dewasa, infeksi ini menyebabkan kelelahan dan penurunan energi, yang secara langsung menurunkan produktivitas kerja di sektor pertanian dan pangan. Dengan melemahnya kesehatan dan produktivitas masyarakat, kecacingan secara tidak langsung mengancam ketersediaan dan akses terhadap pangan bergizi di tingkat rumah tangga maupun nasional.</p>
+
+<p align="center" style="font-size:40px; margin-top: 60px"><b>Bagaimana Mencegah Kecacingan?</b></p>
+<p style="font-size:20px; margin-top:40px">
+   <ol style="font-size:20px; margin-top:20px">
+	<li>Perilaku Hidup Bersih dan Sehat (PHBS)</li>
+	    <ul type="disc" style="margin-left: 20px; margin-top: 20px">
+		<li>Cuci Tangan dengan Sabun</li>
+		<p>Selalu cuci tangan menggunakan sabun dan air mengalir sebelum makan, setelah dari toilet/jamban, dan setelah bermain atau menyentuh tanah.</p>
+		<li>Memotong Kuku</li>
+		<p>Pastikan kuku, terutama kuku anak-anak, selalu dipotong pendek dan bersih. Telur cacing sering tersembunyi di balik kuku. </p>
+		<li>Menggunakan Alas Kaki</li>
+		<p>Selalu gunakan alas kaki (sepatu atau sandal) saat berada di luar rumah atau saat berjalan di tanah, terutama di daerah yang lembap atau kotor. Larva cacing tambang dapat menembus kulit kaki. </p>	    
+	    </ul>
+
+	
+	<li style="margin-top: 20px">Kebersihan Makanan dan Minuman</li>
+	    <ul type="disc" style="margin-left: 20px; margin-top: 20px">
+		<li>Masak Hingga Matang</li>
+		<p>Pastikan semua daging (sapi, ayam, babi) dan ikan dimasak hingga matang sempurna sebelum dikonsumsi untuk membunuh semua larva dan telur cacing (terutama cacing pita).</p>
+		<li>Cuci Sayur dan Buah</li>
+		<p>Cuci semua buah dan sayuran secara menyeluruh dengan air bersih mengalir, terutama yang dimakan mentah (lalapan), untuk menghilangkan sisa-sisa tanah yang mungkin mengandung telur cacing.</p>
+		<li>Minum Air Bersih</li>
+		<p>Konsumsi hanya air minum kemasan terjamin atau air yang sudah dimasak hingga mendidih (direbus). </p>	    
+	    </ul>
+
+	<li style="margin-top: 20px">Sanitasi Lingkungan</li>
+	    <ul type="disc" style="margin-left: 20px; margin-top: 20px">
+		<li>Buang Air Besar di Jamban</li>
+		<p>Pastikan semua anggota keluarga buang air besar (BAB) hanya di jamban atau toilet yang sehat, dan hindari BAB sembarangan di kebun atau tanah terbuka.</p>
+		<li>Jaga Kebersihan Lingkungan</li></ul>
+<li style="margin-top: 20px">Pemberian Obat Pencegahan Massal (POPM)</li>
+	    <ul type="disc" style="margin-left: 20px; margin-top: 20px">
+		<li>Lakukan program minum obat cacing (Albendazole atau Mebendazole) secara rutin, biasanya setiap 6 bulan sekali, terutama untuk anak usia sekolah (1 sampai 12 tahun), di wilayah yang rentan kecacingan.</li>
+		<li>Program ini sering kali diselenggarakan oleh pemerintah atau puskesmas setempat.</li>
+</ul></ol>
+</main>
+
+<footer>
+<div class="footer" style="margin-top: 80px;" >
+<p style="color: rgba(239, 155, 15, 0.7)">.
+<p style="color: rgba(239, 155, 15, 0.7)">.
+<p style="color: rgba(239, 155, 15, 0.7)">.
+  <p style="margin-top: 80px style="margin-bottom: 80px; color: white"><style="margin-top: 80px">Kreator: talithairsalina.15@gmail.com</p>
+<p style="color: rgba(239, 155, 15, 0.7)">.
+<p> Dibuat untuk memenuhi tugas Ketahanan Pangan kelompok 7 yang beranggotakan:
+<p style="color: rgba(239, 155, 15, 0.7)">.
+
+<p stylw="color: white">Raidah Rif’at (8881250019)
+<br>Renata Zhafira Putri Herlia (8881250036)
+<br>Talitha Azzahra Irsalina (8881250022)
+<br>Zalfa Aprillia Andini (881250011)</br>
+</ol>
+<p style="color: rgba(239, 155, 15, 0.7)">.<p style="color: rgba(239, 155, 15, 0.7)">.<p style="color: rgba(239, 155, 15, 0.7)">.</div>
+</body>
+</html>
